@@ -1,0 +1,64 @@
+.cultural-banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background: linear-gradient(to right, #f9f5f0, #ffffff);
+  margin: 5rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.cultural-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 300px;
+}
+
+.cultural-text {
+  padding: 3rem;
+  align-self: center;
+}
+
+.cultural-text h3 {
+  font-size: 2rem;
+  color: #5a4a42;
+  margin-bottom: 1.5rem;
+}
+
+.cultural-features {
+  margin: 1.5rem 0;
+  list-style: none;
+}
+
+.cultural-features li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.learn-more-btn {
+  background: transparent;
+  color: #b38a58;
+  border: 2px solid #b38a58;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background: #b38a58;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .cultural-banner {
+    grid-template-columns: 1fr;
+  }
+  
+  .cultural-text {
+    padding: 2rem;
+  }
+}

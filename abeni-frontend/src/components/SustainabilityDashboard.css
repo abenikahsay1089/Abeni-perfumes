@@ -1,0 +1,54 @@
+.sustainability-dashboard {
+  background: #f9f5f0;
+  padding: 3rem;
+  border-radius: 12px;
+  margin: 4rem 0;
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #5a4a42;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.metric-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.metric-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #b38a58;
+  margin-bottom: 0.5rem;
+}
+
+.metric-label {
+  font-size: 0.9rem;
+  color: #5a4a42;
+}
+
+.sustainability-story {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #5a4a42;
+}

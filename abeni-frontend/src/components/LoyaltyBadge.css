@@ -1,0 +1,31 @@
+.loyalty-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: rgba(179, 138, 88, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  border: 1px solid rgba(179, 138, 88, 0.3);
+}
+
+.loyalty-tier {
+  background: #b38a58;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.loyalty-points {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  color: #5a4a42;
+}
+
+.star {
+  font-size: 1.1rem;
+}
