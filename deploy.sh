@@ -1,0 +1,40 @@
+#!/bin/bash
+
+echo "🚀 Abeni Perfumes Deployment Script"
+echo "=================================="
+echo ""
+
+echo "📱 Frontend (Vercel) Setup:"
+echo "1. Go to https://vercel.com"
+echo "2. Sign up/Login with GitHub"
+echo "3. Click 'New Project'"
+echo "4. Import your GitHub repository"
+echo "5. Set root directory to 'abeni-frontend'"
+echo "6. Click 'Deploy'"
+echo ""
+
+echo "🚂 Backend (Render - Recommended) Setup:"
+echo "1. Go to https://render.com"
+echo "2. Sign up/Login with GitHub"
+echo "3. Click 'New +' → 'Web Service'"
+echo "4. Connect your GitHub repository"
+echo "5. Set root directory to 'abeni-backend'"
+echo "6. Configure: Name, Environment: Node, Build: npm install, Start: npm start"
+echo "7. Add environment variables (see DEPLOYMENT_GUIDE.md)"
+echo "8. Click 'Create Web Service'"
+echo ""
+echo "Alternative: Fly.io (https://fly.io) or Cyclic (https://cyclic.sh)"
+echo ""
+
+echo "🔗 After Deployment:"
+echo "1. Update frontend API base URL to your Railway backend URL"
+echo "2. Update backend CORS settings with your Vercel frontend URL"
+echo "3. Test your application"
+echo ""
+
+echo "📚 For detailed instructions, see DEPLOYMENT_GUIDE.md"
+echo ""
+
+echo "✅ Your project is ready for deployment!"
+echo "   - Frontend: abeni-frontend/ (with vercel.json)"
+echo "   - Backend: abeni-backend/ (with render.yaml, railway.json, and Procfile)"
